@@ -53,20 +53,74 @@
 
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:768px) {
     .head .content h1 {
-        font-size: 3rem;
+        font-size: 2.6rem;
+        padding-bottom: 5px;
     }
 
     .head .content p {
-        font-size: 1rem;
+        font-size: 0.8rem;
+        padding:  0 0.5rem;
+    }
+
+    .btn {
+        padding: 8px 25px 0 0;
+        font-size: 0.8rem;
+        width: 60%;
+        align-self: center;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 575px) and (max-width: 768px) {
+    
+    .head .content {
+        top: 38%;
+    }
+
     .btn {
-        padding: 8px 25px;
+        padding: 5px 5px 5px 5px;
         font-size: 0.8rem;
+        text-transform: uppercase;
+        background-color: rgb(248, 217, 15);
+        color: black;
+        border: 1px solid #fff;
+        font-weight: 600;
+        cursor: pointer;
+        
+    }
+
+    .btn-light {
+        background: transparent;
+        color: #fff;
+    }
+
+    .CVContactBtnDiv{
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 575px) {
+    
+    .head .content {
+        top: 28%;
+    }
+    
+    .head .content h1 {
+        font-size: 2rem;
+        padding-bottom: 2px;
+    }
+
+    .head .content p {
+        font-size: 0.6rem;
+        padding:  0 0.5rem;
+    }
+
+    .btn {
+        padding: 5px 5px 5px 5px;
+        font-size: 0.6rem;
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
@@ -82,21 +136,34 @@
 
     .CVContactBtnDiv{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
 }
 
 @media screen and (min-width: 320px) and (max-width: 425px) {
+   
+    .head .content {
+        top: 25%;
+    }
+    
+    .head .content h1 {
+        font-size: 1.3rem;
+    }
+
+    .head .content p {
+        font-size: 0.45rem;
+    }
     .btn {
-        padding: 8px 25px;
-        font-size: 0.8rem;
+        padding: 5px 5px 5px 5px;
+        font-size: 0.4rem;
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
         border: 1px solid #fff;
         font-weight: 600;
         cursor: pointer;
+        
     }
 
     .btn-light {
@@ -106,29 +173,42 @@
 
     .CVContactBtnDiv{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width: 110%;
     }
 
 }
 
 @media screen and (min-width: 0px) and (max-width: 320px) {
-   
+    
+    .into-img {
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+    }
+    
+    .head .content {
+        top: 25%;
+        width: 80%;
+    }
+    
     .head .content h1 {
         font-size: 1.5rem;
     }
 
     .head .content p {
-        font-size: 0.6rem;
+        font-size: 0.45rem;
     }
     .btn {
-        padding: 6px 32px;
-        font-size: 0.5rem;
+        padding: 5px 5px 5px 5px;
+        font-size: 0.4rem;
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
         border: 1px solid #fff;
         font-weight: 600;
         cursor: pointer;
+        
     }
 
     .btn-light {
@@ -138,7 +218,8 @@
 
     .CVContactBtnDiv{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width: 110%;
     }
 
 }

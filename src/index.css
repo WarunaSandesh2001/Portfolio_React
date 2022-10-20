@@ -12,7 +12,7 @@ body{
   font-family: 'Fasthand', cursive;
 }
 
-h1,h4,p,a{
+h1,h3,h4,h5,p,a{
   color: #fff;
   text-decoration: none;
 }
@@ -30,6 +30,7 @@ ul{
   border: 1px solid #fff;
   font-weight: 400;
   cursor: pointer;
+  letter-spacing: 1px;
 }
 
 .btn-light{
