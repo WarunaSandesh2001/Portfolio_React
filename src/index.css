@@ -28,7 +28,7 @@ ul{
   background-color: rgb(248, 217, 15);
   color: black;
   border: 1px solid #fff;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
 }
 
@@ -39,6 +39,11 @@ ul{
 
 .btn:hover {
   background: rgba(255, 255, 0, 2);
-  color: #fff;
   transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn-light:hover{
+  background-color: rgb(45, 47, 49);
+  color: #fff;
 }
