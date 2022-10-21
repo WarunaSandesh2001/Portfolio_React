@@ -1,5 +1,4 @@
 import "./HeadImg2Styles.css"
-
 import React from 'react'
 
 const HeadImg2 = (props) => {
@@ -7,7 +6,7 @@ const HeadImg2 = (props) => {
     <div className="head-img">
         <div className="heading">
             <h1>{props.heading}</h1>
-            <p>{props.text}</p>
+            <p>{props.text}</p> 
         </div>
     </div>
   )
