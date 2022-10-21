@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio_React/static/css/main.ff99f176.css",
+    "main.js": "/Portfolio_React/static/js/main.20e9de37.js",
+    "static/media/carrental.jpg": "/Portfolio_React/static/media/carrental.096c6318e0d2c7ad2ca8.jpg",
+    "static/media/background2.jpg": "/Portfolio_React/static/media/background2.39455e23cc7281ee9a0d.jpg",
+    "index.html": "/Portfolio_React/index.html",
+    "main.ff99f176.css.map": "/Portfolio_React/static/css/main.ff99f176.css.map",
+    "main.20e9de37.js.map": "/Portfolio_React/static/js/main.20e9de37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ff99f176.css",
+    "static/js/main.20e9de37.js"
+  ]
+}
