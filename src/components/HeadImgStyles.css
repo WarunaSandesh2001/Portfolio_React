@@ -84,7 +84,7 @@
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
-        border: 1px solid #fff;
+        border: 2px solid rgb(248, 217, 15);
         font-weight: 600;
         cursor: pointer;
         
@@ -93,6 +93,7 @@
     .btn-light {
         background: transparent;
         color: #fff;
+        border-color: white;
     }
 
     .CVContactBtnDiv{
@@ -128,7 +129,7 @@
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
-        border: 1px solid #fff;
+        border: 1px solid rgb(248, 217, 15);
         font-weight: 600;
         cursor: pointer;
     }
@@ -136,6 +137,7 @@
     .btn-light {
         background: transparent;
         color: #fff;
+        border-color: white;
     }
 
     .CVContactBtnDiv{
@@ -168,7 +170,7 @@
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
-        border: 1px solid #fff;
+        border: 1px solid rgb(248, 217, 15);
         font-weight: 600;
         cursor: pointer;
         
@@ -177,6 +179,7 @@
     .btn-light {
         background: transparent;
         color: #fff;
+        border-color: white;
     }
 
     .CVContactBtnDiv{
@@ -217,7 +220,7 @@
         text-transform: uppercase;
         background-color: rgb(248, 217, 15);
         color: black;
-        border: 1px solid #fff;
+        border: 1px solid rgb(248, 217, 15)f;
         font-weight: 600;
         cursor: pointer;
         
@@ -226,6 +229,7 @@
     .btn-light {
         background: transparent;
         color: #fff;
+        border-color: white;
     }
 
     .CVContactBtnDiv{

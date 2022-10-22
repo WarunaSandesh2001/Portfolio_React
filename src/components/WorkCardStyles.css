@@ -18,8 +18,8 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
     transition: 0.3s;
 }
 

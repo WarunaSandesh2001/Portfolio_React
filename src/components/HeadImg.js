@@ -13,7 +13,7 @@ const HeadImg = () => {
         <p>HI, I'M FULLSTACK DEVELOPER.</p>
         <h1>Waruna Sandesh</h1>
         <div className="CVContactBtnDiv">
-          <Link to="/project" className="btn">Download CV</Link>
+          <a href="myCV.pdf" download="myCV.pdf" className="btn">Download CV</a>
           <Link to="/contact" className="btn btn-light">Contact</Link>
         </div>
       </div>

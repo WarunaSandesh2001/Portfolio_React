@@ -14,7 +14,7 @@ const AboutContent = () => {
         <h1>Who Am I?</h1>
         <p>I'm a FullStack developer. I create responsive secure websites for my clients.</p>
         <Link to="/contact">
-          <button to="" className="btn" style={{ width: "30%" }}>Contact</button>
+          <button to="" className="btn" style={{ width: "30%", padding: "7px 32px", fontSize: "0.8rem"}}>Contact</button>
         </Link>
       </div>
       <div className='right'>
