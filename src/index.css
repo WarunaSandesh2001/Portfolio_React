@@ -54,11 +54,12 @@ ul{
   padding: 0.5rem 0;
   font-size: 0.8rem;
   text-transform: uppercase;
-  background-color: rgb(248, 217, 15);
+  background-color: rgb(219, 191, 8);
   color: black;
   border: 1px solid #fff;
   font-weight: 500;
   cursor: pointer;
+  letter-spacing: 0.7px;
 }
 
 .btnView:hover{

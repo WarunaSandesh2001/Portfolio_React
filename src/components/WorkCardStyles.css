@@ -20,6 +20,12 @@
     flex-direction: column;
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    background: #2a2929;
+    transition: 0.4s;
 }
 
 .project-card img {
